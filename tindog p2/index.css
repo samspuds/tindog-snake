@@ -1,0 +1,143 @@
+#container {
+  height: 973px;
+  width: 550px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: #252525;
+}
+.header {
+  height: 81px;
+  width: 550px;
+}
+
+#main {
+  height: 892px;
+  width: 550px;
+  border: 1px solid black;
+}
+
+img {
+  object-fit: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.header img {
+  padding: 10px;
+}
+
+#profile {
+  height: 32.33px;
+  width: 34px;
+  cursor: pointer;
+}
+
+#logo {
+  height: 42px;
+  width: 84px;
+  cursor: pointer;
+}
+#chat {
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+}
+
+#MAIN-default-state {
+  height: 751.44px;
+  width: 534px;
+
+  display: flex;
+  margin: 0 auto;
+}
+.imgcont {
+  position: relative;
+}
+
+.avatar {
+  height: 751.44px;
+  width: 534px;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.sign {
+  top: 50px;
+  left: 20px;
+  width: 50%;
+  position: absolute;
+  transform: rotate(-20deg);
+}
+
+.name {
+  position: absolute;
+  margin-top: -100px;
+  color: pink;
+  margin-left: 20px;
+}
+#bio {
+  position: absolute;
+  margin-top: -70px;
+  color: white;
+  margin-left: 20px;
+  text-shadow: 0px 0px 20px #aaaaaa;
+}
+.icons {
+  display: flex;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+  display: flex;
+  margin: 20px auto;
+}
+#accept-button:hover {
+  background-color: green;
+}
+
+#reject-button:hover {
+  color: rgba(0, 0, 0, 0.037);
+  background-color: darkred;
+}
+
+#accept-button {
+  border-radius: 50px;
+  border: none;
+  padding: 1em 1em;
+  margin-left: 1em;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+#accept-button img {
+  transform: translateY(10%);
+}
+
+#reject-button {
+  border-radius: 50px;
+  border: none;
+  padding: 1em 1em;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  margin-right: 1em;
+  cursor: pointer;
+  background-color: white;
+}
+#reject-button img {
+  transform: translateY(10%);
+}
+.end-game {
+  display: flex;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.end-emoji {
+  font-size: 80px;
+}
